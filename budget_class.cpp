@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 #include "budget_class.h"
 
 using namespace std;
