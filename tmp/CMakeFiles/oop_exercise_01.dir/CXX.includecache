@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oem/Documents/lab1/budget_class.cpp
+iostream
+-
+fstream
+-
+budget_class.h
+/home/oem/Documents/lab1/budget_class.h
+
+/home/oem/Documents/lab1/budget_class.h
+
+/home/oem/Documents/lab1/main.cpp
+iostream
+-
+fstream
+-
+budget_class.h
+/home/oem/Documents/lab1/budget_class.h
+
