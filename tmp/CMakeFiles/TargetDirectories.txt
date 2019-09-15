@@ -1,3 +1,0 @@
-/home/oem/Documents/lab1/tmp/CMakeFiles/rebuild_cache.dir
-/home/oem/Documents/lab1/tmp/CMakeFiles/oop_exercise_01.dir
-/home/oem/Documents/lab1/tmp/CMakeFiles/edit_cache.dir
