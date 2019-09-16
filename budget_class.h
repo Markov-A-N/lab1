@@ -1,8 +1,6 @@
 #ifndef BUDGET_CLASS_H    
 #define BUDGET_CLASS_H 1
 
-using namespace std;
-
 class Budget
 {
 	double a, b;
@@ -21,8 +19,8 @@ public:
 	bool gt(Budget const &op2) const;
 	bool le(Budget const &op2) const;
 	bool ge(Budget const &op2) const;
-	void write(ostream &out);
-	void read(istream &in);
+	void write(std::ostream &out);
+	void read(std::istream &in);
 };
 
 #endif // BUDGET_CLASS_H
