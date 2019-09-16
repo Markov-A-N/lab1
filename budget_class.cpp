@@ -1,8 +1,6 @@
 #include <iostream>
 #include "budget_class.h"
 
-using namespace std;
-
 Budget::Budget(double first, double second)
 {
 	a = rounding(first);
@@ -147,7 +145,7 @@ bool Budget::ge(Budget const &op2) const
 	}
 }
 
-void Budget::write(ostream &out)
+void Budget::write(std::ostream &out)
 {
 	out.precision(2);
 	out.setf(ios::fixed);
@@ -155,7 +153,7 @@ void Budget::write(ostream &out)
 	out.unsetf(ios::fixed);
 }
 
-void Budget::read(istream &in)
+void Budget::read(std::istream &in)
 {
 	in >> a >> b;
 	a = rounding(a);
