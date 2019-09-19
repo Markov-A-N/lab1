@@ -148,9 +148,9 @@ bool Budget::ge(Budget const &op2) const
 void Budget::write(std::ostream &out)
 {
 	out.precision(2);
-	out.setf(ios::fixed);
+	out.setf(std::ios::fixed);
 	out << a << " " << b << "\n";
-	out.unsetf(ios::fixed);
+	out.unsetf(std::ios::fixed);
 }
 
 void Budget::read(std::istream &in)
